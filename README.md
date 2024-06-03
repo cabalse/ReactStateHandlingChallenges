@@ -6,4 +6,6 @@ The top button adds numbers to the list displayed on the left while the button b
 characters to the list on the right. Both lists should be updated so that they display the
 same values/items.
 
+## Run the application
+
 > Run application with > npm run dev
