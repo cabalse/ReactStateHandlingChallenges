@@ -1,7 +1,7 @@
-const DisplayNumbers = ({ items }) => {
+const DisplayList = ({ title, items }) => {
   return (
     <div>
-      <div>Numbers</div>
+      <div>{title}</div>
       <div>
         {items.map((item) => (
           <p key={item}>{item}</p>
@@ -11,4 +11,4 @@ const DisplayNumbers = ({ items }) => {
   );
 };
 
-export default DisplayNumbers;
+export default DisplayList;
